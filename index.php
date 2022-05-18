@@ -14,7 +14,7 @@
     /*--------------------------ROUTER -----------------------------*/
     //test de la valeur $path dans l'URL et import de la ressource
     switch($path){
-        //route /evalmvc/test -> ./test.php
+        //route /projet/create_user -> ./controler/controler_create_user.php
         case $path === "/projet/create_user" : 
             include './controler/controler_create_user.php';
             break ;
