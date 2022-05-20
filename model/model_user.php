@@ -1,12 +1,12 @@
 <?php
     class Utilisateur{
-        private $id_util;
-        private $nom_util;
-        private $prenom_util;
-        private $mail_util;
-        private $tel_util;
-        private $mdp_util;
-        private $id_fam_util;
+        protected $id_util;
+        protected $nom_util;
+        protected $prenom_util;
+        protected $mail_util;
+        protected $tel_util;
+        protected $mdp_util;
+        protected $id_fam_util;
         // Constructeur
         public function __construct($nom, $prenom, $mail, $tel, $mdp, $fam){
             $this->nom_util = $nom;
