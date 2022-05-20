@@ -184,3 +184,12 @@ alter table evenement
 add constraint fk_avoir_type_event
 foreign key (id_type_event)
 references type_event(id_type_event);
+
+
+alter table artiste
+add id_util int,
+add nom_util varchar(50),
+add prenom_util varchar(50),
+add mail_util varchar(50),
+add mdp_util varchar(100),
+add tel_util int(11);
