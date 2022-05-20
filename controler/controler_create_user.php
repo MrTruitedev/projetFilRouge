@@ -2,6 +2,7 @@
     // Imports
     include './utils/connect_bdd.php';
     include './model/model_user.php';
+    include './model/model_artiste.php';
     include './view/view_create_user.php';
     // Test logiques
     // Test clic bouton Ajouter
@@ -14,7 +15,7 @@
         !empty($_POST['nom_util']) AND !empty($_POST['prenom_util']) AND
         !empty($_POST['mail_util']) AND !empty($_POST['tel_util']) AND
         !empty($_POST['mdp_util'])){
-            if($_POST['fam'] == "artiste"){
+            if($_POST['fam'] == 1){
                 // Instance d'un nouvel objet
                 $util = new Utilisateur($_POST['nom_util'], $_POST['prenom_util'],
                 $_POST['mail_util'], $_POST['tel_util'], $_POST['mdp_util'],
