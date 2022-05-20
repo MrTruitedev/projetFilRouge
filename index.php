@@ -18,44 +18,44 @@
         case $path === "/projet/create_user" : 
             include './controler/controler_create_user.php';
             break ;
-        //route /evalmvc/addArticle -> ./controler/controler_add_article.php
-        case $path === "/evalmvc/addArticle":
-            include './controler/controler_add_article.php';
+        //route /projet/connexion-> ./controler/controler_connexion.php
+        case $path === "/projet/connexion":
+            include './controler/controler_connexion.php';
 		    break ;
-        //route /evalmvc/showArticle -> ./controler/controler_show_all_article.php
-        case $path === "/evalmvc/showArticle":
-            include './controler/controler_show_all_article.php';
+        //route /projet/accueil -> ./controler/controler_accueil.php
+        case $path === "/projet/accueil":
+            include './controler/controler_accueil.php';
 		    break ;
-        //route /evalmvc/modifyArticle -> ./controler/controler_modify_article.php
-        case $path === "/evalmvc/modifyArticle":
+        //route /projet/modifyArticle -> ./controler/controler_modify_article.php
+        case $path === "/projet/modifyArticle":
             include './controler/controler_modify_article.php';
 		    break ;
-        //route /evalmvc/deleteArticle -> ./controler/controler_delete_article.php
-        case $path === "/evalmvc/deleteArticle":
+        //route /projet/deleteArticle -> ./controler/controler_delete_article.php
+        case $path === "/projet/deleteArticle":
             include './controler/controler_delete_article.php';
 		    break ;
         
-        //route /evalmvc/addUser -> ./controler/controler_add_user.php
-        case $path === "/evalmvc/addUser":
+        //route /projet/addUser -> ./controler/controler_add_user.php
+        case $path === "/projet/addUser":
             include './controler/controler_add_user.php';
             break ;    
 
-        //route /evalmvc/connexion -> ./controler/controler_connexion.php
-        case $path === "/evalmvc/connexion":
+        //route /projet/connexion -> ./controler/controler_connexion.php
+        case $path === "/projet/connexion":
             include './controler/controler_connexion.php';
 		    break ;
-        //route /evalmvc/deconnexion -> ./controler/controler_deconnexion.php
-        case $path === "/evalmvc/deco":
-            include './controler/controler_deconnexion.php';
+        //route /projet/deconnexion -> ./controler/controler_deconnexion.php
+        case $path === "/projet/deco":
+            include './controler/controler_deco.php';
             break ;
 
-        //route /evalmvc/error -> ./error.php
-        case $path === "/evalmvc/error":
-            include './error.php';
-		    break ;
+        //route /projet/error -> ./error.php
+        // case $path === "/projet/error":
+        //     include './error.php';
+		//     break ;
         //route en cas d'erreur
-        case $path !== "/evalmvc/":
-            include './error.php';
-		    break ;
+        // case $path !== "/projet/":
+        //     include './error.php';
+		//     break ;
     }
 ?>
