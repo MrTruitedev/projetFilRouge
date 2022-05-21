@@ -6,8 +6,9 @@
     //test soit l'url a une route sinon on renvoi à la racine
     $path = isset($url['path']) ? $url['path'] : '/';
     //menu 
+    include './view/view_menu.php';
     // if(isset($_SESSION['connected']) == true){
-    //     include './view/view_menu_connecte.php';
+    //    include './view/view_menu.php';
     // }else{
     //     include './view/view_menu_deco.php';
     // }
@@ -58,4 +59,5 @@
         //     include './error.php';
 		//     break ;
     }
+    include './view/view_footer.php';
 ?>
