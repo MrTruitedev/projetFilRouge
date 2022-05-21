@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+    background-color: rgb(237, 155, 64);
+}
+
+#navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 17px;
+    font-size: 1.3vw;
+}
+
+#navbar {
+    background-color: #7C90A0;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2)
+}
+
+#searchForm {
+    margin-top: 5px;
+}
+
+#catalogue {
+    margin-left: 16px;
+    padding-bottom: 28px;
+}
+
+select{
+    font-size: 1vw;
+}
+
+#connexion {
+    margin-right: 16px;
+    padding-bottom: 20px;
+}
+
+#logo {
+    float: left;
+    width: auto;
+    height: 3.4vw;
+}
+
+#searchBar {
+    width: 30vw;
+    height: 1.4vw;
+    border-radius: 5px;
+}
+
+#searchButton {
+    border-radius: 5px;
+    width: 5vw;
+    height: 1.4vw;
+    font-size: 1vw;
+}
+
+#searchButton:hover {
+    box-shadow: 1px 2px black;
+}
+
+
+#footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 15px;
+    background-color: #7C90A0;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.2)
+}
+
+#social-logos {
+    padding-top: 4px;
+}
+
+.sm-logo {
+    width: 54px;
+    height: auto;
+}
+
+.mail-logo {
+    width: 35px;
+    height: auto;
+}
