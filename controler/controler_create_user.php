@@ -44,5 +44,5 @@
     }else{
         $msg = 'Veuillez cliquer sur Ajouter';
     }
-    echo $msg;
+    echo "<script>zoneMsg.innerHTML = '$msg'</script>";
 ?>

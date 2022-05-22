@@ -37,18 +37,22 @@
                 if($_SESSION['fam'] == 1){
                     //Message connecté 
                     $msg = 'Connecté en tant qu\'artiste';
-                    echo "<script>
-                    setTimeout(()=>{
-                        document.location.href='/projet/accueil'; 
-                        }, 1500);
-                    </script>";
+                    
+                    // echo "<script>
+                    // setTimeout(()=>{
+                    //     document.location.href='/projet/accueil'; 
+                    //     }, 1500);
+                    // </script>";
+                    // echo "<script>zoneMsg.innerHTML = '$msg'</script>";
                 }else{
                     $msg = 'Connecté en tant qu\'organisateur';
-                    echo "<script>
-                    setTimeout(()=>{
-                        document.location.href='/projet/accueil'; 
-                        }, 1500);
-                    </script>";
+                    
+                    // echo "<script>
+                    // setTimeout(()=>{
+                    //     document.location.href='/projet/accueil'; 
+                    //     }, 1500);
+                    // </script>";
+                    // echo "<script>zoneMsg.innerHTML = '$msg'</script>";
                 }
             }else{
                 $msg = 'Les informations sont incorrectes';
@@ -57,6 +61,5 @@
     }else{
         $msg = 'Cliquez sur connexion';
     }
-    echo $msg;
-    var_dump($_SESSION);
+    echo "<script>zoneMsg.innerHTML = '$msg'</script>";
 ?>
