@@ -1,7 +1,25 @@
+.background{
+    background: radial-gradient(circle at bottom, #FFB5A7, #FCD5CE, #F8EDEB, #F9DCC4, #FEC89A 75%);
+	background-repeat: repeat;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.foreground{
+    margin-left: 100px;
+    margin-right: 100px;
+	background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
 #home-container {
-    margin: 40px;
-    border: 1px solid black;
+    margin-top: 13px;
+    height: auto;
+    
     padding: 10px;
+    box-shadow: 0 3px 26px 0 rgba(0,0,0,0.20);
 }
 
 h1 {

@@ -1,6 +1,8 @@
-body {
+body,
+html {
+    height: 100%;
     margin: 0px;
-    background-color: rgb(237, 155, 64);
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #navbar-container {
@@ -13,7 +15,7 @@ body {
 }
 
 #navbar {
-    background-color: #7C90A0;
+    background-color: #7C90A0 0.3;
     box-shadow: 0 3px 5px rgb(0 0 0 / 0.2)
 }
 
@@ -26,13 +28,15 @@ body {
     padding-bottom: 28px;
 }
 
-select{
+select {
     font-size: 1vw;
 }
 
 #connexion {
     margin-right: 16px;
     padding-bottom: 20px;
+    flex-direction: row;
+    font-size: 1.2rem;
 }
 
 #logo {
@@ -58,7 +62,13 @@ select{
     box-shadow: 1px 2px black;
 }
 
-
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 5px;
+}
 #footer-container {
     display: flex;
     flex-direction: row;
@@ -66,7 +76,7 @@ select{
     justify-content: space-between;
     padding: 10px;
     margin: 15px;
-    background-color: #7C90A0;
+    background-color: #7C90A0 0.3;
     box-shadow: 0 3px 5px rgb(0 0 0 / 0.2)
 }
 
@@ -82,4 +92,8 @@ select{
 .mail-logo {
     width: 35px;
     height: auto;
+}
+
+#contact {
+    font-size: 1.6rem;
 }
