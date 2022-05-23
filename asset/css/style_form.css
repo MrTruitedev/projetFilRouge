@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .form-container{
     display: flex;
     flex-direction: column;
@@ -9,14 +12,20 @@
     border-radius: 5px;
 }
 
-.background{
+.background-form{
+    background: radial-gradient(circle at bottom, #FFB5A7, #FCD5CE, #F8EDEB, #F9DCC4, #FEC89A 75%);
+	background-repeat: repeat;
     height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 footer{
     position: fixed;
 }
 .h2-form{
-    margin-top: 70px;
+    margin-top: 0;
+    padding-top: 70px;
 }
 
 .form-button{
