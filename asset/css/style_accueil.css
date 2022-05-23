@@ -1,4 +1,4 @@
-.background{
+.background :not(.background-form){
     background: radial-gradient(circle at bottom, #FFB5A7, #FCD5CE, #F8EDEB, #F9DCC4, #FEC89A 75%);
 	background-repeat: repeat;
     height: auto;
